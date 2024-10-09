@@ -1,16 +1,15 @@
 "use client"
 import React from 'react'
 import { MdOutlineNotificationsNone, MdKeyboardArrowDown } from "react-icons/md";
-import { RiArrowDownLine } from "react-icons/ri";
 import Image from "next/image";
 import { dummyAvatar } from "@/assets"
 
 const Header = () => {
   return (
-    <header className={`flex flex-col items-center h-[100px] w-full`}>
-      <nav className={`flex w-[90%] h-full mx-auto items-center justify-between `}>
+    <header className={`flex flex-col items-center h-[100px] w-full border-b-[1px] border-t-[1px]`}>
+      <nav className={`flex w-[95%] h-full mx-auto items-center justify-between `}>
         <div>
-            <h2 className={`text-[16px] md:text-[20px] lg:text-[25px] font-bold`}> WerkLinker </h2>
+            <h2 className={`text-[16px] md:text-[20px] lg:text-[25px] font-bold text-main`}> WerkLinker </h2>
         </div>
 
         <aside className="flex items-center gap-[10px]">

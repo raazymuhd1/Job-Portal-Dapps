@@ -12,12 +12,11 @@ const config: Config = {
          'exo': 'var(--font-exo)',
          'orbitron': 'var(--font-orbitron)'
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
     },
+    colors: {
+      "main": "#0076fb",
+      "secondary": "#f2f2f2"
+    }
   },
   plugins: [],
 }

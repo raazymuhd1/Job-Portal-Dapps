@@ -14,8 +14,6 @@ export const metadata: Metadata = {
   description: 'Seek for job, wait no more',
 }
 
-// main color #f2f2f2
-// second color #0076fb
 
 export default function RootLayout({
   children,
@@ -24,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en" className={`${orbitron.variable}`}>
-        <body className={`bg-[#ffffff]`}>
+        <body className={`bg-[#ffffff] w-full`}>
           <Header />
           {children}
         </body>
