@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import JobType from './JobType'
 
 const Sidebar = () => {
   return (
@@ -10,7 +10,10 @@ const Sidebar = () => {
             <h3 className="font-semibold text-[18px] text-main">Clear All</h3>
         </div>
 
-        {/* Job type comp */}
+        {/* JOB TYPES */}
+        <JobType />
+        {/* RANGE SALARIES */}
+        {/* EXPERIENCES */}
     </aside>
   )
 }
