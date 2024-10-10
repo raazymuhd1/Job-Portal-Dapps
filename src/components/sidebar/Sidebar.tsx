@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
+import { rangeSalaries, experiences } from '@/constants'
 import JobType from './JobType'
+import SalaryExp from './SalaryExp'
 
 const Sidebar = () => {
   return (
@@ -12,7 +14,13 @@ const Sidebar = () => {
 
         {/* JOB TYPES */}
         <JobType />
-        {/* RANGE SALARIES */}
+        { rangeSalaries.map(salary => (
+          <SalaryExp key={salary.id}  { ...salary } />
+        )) }
+
+        { experiences.map(exp => (
+          <SalaryExp key={exp.id}  { ...exp } />
+        )) }
         {/* EXPERIENCES */}
     </aside>
   )
