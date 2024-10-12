@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en" className={`${orbitron.variable}`}>
-        <body className={`bg-[#ffffff] w-full`}>
+        <body className={`bg-[#f2f2f2] w-full h-full`}>
           <Header />
           {children}
         </body>

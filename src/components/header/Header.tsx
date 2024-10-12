@@ -6,7 +6,7 @@ import { dummyAvatar } from "@/assets"
 
 const Header = () => {
   return (
-    <header className={`flex flex-col items-center h-[100px] w-full border-b-[1px] border-t-[1px]`}>
+    <header className={`flex flex-col items-center h-[100px] w-full border-b-[1px] border-t-[1px] bg-[#fff]`}>
       <nav className={`flex w-[95%] h-full mx-auto items-center justify-between `}>
         <div>
             <h2 className={`text-[16px] md:text-[20px] lg:text-[25px] font-bold text-main`}> WerkLinker </h2>
