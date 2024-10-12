@@ -8,7 +8,7 @@ const JobType = () => {
     const [showJobTypes, setShowJobTypes] = useState<boolean>(false);
 
   return (
-    <aside className={`w-[80%] mx-auto p-[15px] border-b-[1px]`}>
+    <aside className={`w-full p-[15px] border-b-[1px]`}>
         <div
           className={`flex items-center w-full justify-between cursor-pointer`}
           onClick={() => setShowJobTypes(!showJobTypes)}>
