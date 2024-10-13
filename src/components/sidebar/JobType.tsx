@@ -16,7 +16,7 @@ const JobType = () => {
             { showJobTypes ? <MdKeyboardArrowUp className="text-[20px]" /> : <MdKeyboardArrowDown className="text-[20px]" />}
         </div>
 
-        <div className={`${showJobTypes ? "flex flex-col gap-[10px]" : "hidden"} p-[15px] transition-all duration-500 delay-300`}>
+        <div className={`${showJobTypes ? "flex flex-col gap-[10px] opacity-100" : "hidden"} p-[15px] transition-opacity duration-500 delay-300`}>
           { jobTypes.map(types => (
             <div 
                 className={`flex items-center gap-[10px]`}

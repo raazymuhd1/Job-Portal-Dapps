@@ -24,18 +24,18 @@ export default function Home() {
               <JobSearch />
               <Countries />
               <LocationSearch />
-              <Button className="bg-main w-[10%] text-secondary py-[8px] px-[10px]" > Search </Button>
+              <Button className="bg-main w-[10%] text-secondary py-[8px] px-[10px] hover:opacity-70 transition-opacity duration-500" > Search </Button>
           </div>
 
-          <div className={`w-[90%] flex items-center box-border justify-between mt-[3rem]`}>
+          <div className={`w-[100%] flex items-center justify-between mt-[3rem]`}>
             <h3 className="italic"> Showing <strong> 100 </strong> jobs <strong> Frontend developer </strong> in <strong> Indonesia </strong> </h3>
-            <aside className={`min-w-[200px] flex items-center gap-[20px]`}>
+            <aside className={`w-[fit-content] flex items-center gap-[20px]`}>
                <p className="whitespace-nowrap font-medium"> sort by </p>
                 <Select>
                     <SelectTrigger className="h-10">
                         <SelectValue placeholder="Relevancy" />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="box-border">
                        <SelectGroup>
                           { sortLists.map(sort => (
                             <SelectItem key={sort.id} value={sort.name}> {sort.name} </SelectItem>
