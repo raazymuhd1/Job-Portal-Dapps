@@ -10,3 +10,8 @@ export type Country = {
     name: string;
     code: string;
 }
+
+export type Sort = {
+    id: number;
+    name: string;
+}

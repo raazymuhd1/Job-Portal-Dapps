@@ -1,4 +1,4 @@
-import { IJobTypes, Country } from "@/types"
+import { IJobTypes, Country, Sort } from "@/types"
 
 const jobTypes: IJobTypes[] = [
     { id: 1, title: "full-time", isSelected: false, htmlFor: "full-time" },
@@ -214,4 +214,10 @@ const countries: Country[] = [
 {"id": 190, "name": "San Marino", "code": "SM"}
 ]
 
-export { jobTypes, rangeSalaries, experiences, countries }
+const sortLists: Sort[] = [
+    { id: 0, name: "Relevancy" },
+    { id: 1, name: "Asc" },
+    { id: 2, name: "Desc" },
+]
+
+export { jobTypes, rangeSalaries, experiences, countries, sortLists }

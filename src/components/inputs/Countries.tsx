@@ -13,7 +13,7 @@ import { countries } from '@/constants'
 const Countries = () => {
   return (
     <Select>
-        <SelectTrigger className="bg-secondary p-[10px] w-[20%]">
+        <SelectTrigger className="h-[3.2rem] bg-secondary p-[10px] w-[20%]">
             <SelectValue placeholder="Indonesia" />  
         </SelectTrigger>
         <SelectContent>
