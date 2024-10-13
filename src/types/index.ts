@@ -4,3 +4,9 @@ export interface IJobTypes {
     isSelected: boolean;
     htmlFor: string;
 }
+
+export type Country = {
+    id: number;
+    name: string;
+    code: string;
+}
