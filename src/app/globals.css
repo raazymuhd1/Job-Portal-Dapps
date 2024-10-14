@@ -13,6 +13,19 @@
     }
 
     .text-grey-small {
-       @apply text-[14px] text-[#d1d6d8];
+       @apply text-[14px] text-[#bfc6ca];
     }
+
+  }
+
+.jobs-info-bg {
+    background-color: rgba(202,205,205,255); 
+    backdrop-filter: 10px;
+    -webkit-backdrop-filter: 10px;
+}
+
+.apply-btn {
+   backdrop-filter: 10px;
+   -webkit-backdrop-filter: 10px;
+   background-color: rgba(216,234,254,255);
 }

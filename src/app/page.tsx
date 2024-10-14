@@ -24,7 +24,7 @@ export default function Home() {
               <JobSearch />
               <Countries />
               <LocationSearch />
-              <Button className="bg-main w-[10%] text-secondary py-[8px] px-[10px] hover:opacity-70 transition-opacity duration-500" > Search </Button>
+              <Button className="bg-main w-[10%] h-[3.2rem] text-secondary py-[8px] px-[10px] hover:opacity-70 transition-opacity duration-500" > Search </Button>
           </div>
 
          {/* job result & filter */}
