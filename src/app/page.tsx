@@ -8,7 +8,7 @@ import {
     SelectGroup,
     SelectLabel } from "@/components/ui/select"
 import { useState } from "react"
-import { Sidebar, Countries } from "@/components"
+import { Sidebar, Countries, JobCard } from "@/components"
 import { Button } from "@/components/ui/button"
 import { JobSearch, LocationSearch } from "@/components/inputs/Search"
 import { sortLists } from "@/constants"
@@ -27,6 +27,7 @@ export default function Home() {
               <Button className="bg-main w-[10%] text-secondary py-[8px] px-[10px] hover:opacity-70 transition-opacity duration-500" > Search </Button>
           </div>
 
+         {/* job result & filter */}
           <div className={`w-[100%] flex items-center justify-between mt-[3rem]`}>
             <h3 className="italic"> Showing <strong> 100 </strong> jobs <strong> Frontend developer </strong> in <strong> Indonesia </strong> </h3>
             <aside className={`w-[fit-content] flex items-center gap-[20px]`}>
@@ -45,6 +46,9 @@ export default function Home() {
                 </Select>
             </aside>
           </div>
+
+          {/* job card result */}
+          <JobCard />
       </article>
    </main>
   )

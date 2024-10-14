@@ -7,3 +7,12 @@
   }
 }
 
+@layer base {
+    .flex-center {
+       @apply flex items-center;
+    }
+
+    .text-grey-small {
+       @apply text-[14px] text-[#d1d6d8];
+    }
+}
