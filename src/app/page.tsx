@@ -11,7 +11,7 @@ import { useState } from "react"
 import { Sidebar, Countries, JobCard } from "@/components"
 import { Button } from "@/components/ui/button"
 import { JobSearch, LocationSearch } from "@/components/inputs/Search"
-import { sortLists } from "@/constants"
+import { sortLists, jobs } from "@/constants"
 
 export default function Home() {
       const [jobFound, setJobFound] = useState<boolean>(false)
@@ -48,7 +48,11 @@ export default function Home() {
           </div>
 
           {/* job card result */}
-          <JobCard />
+          <aside className="w-full flex-center gap-[20px]">
+            { jobs.map(job => (
+                <JobCard key={job.id} { ...job } />
+            )) }
+          </aside>
       </article>
    </main>
   )

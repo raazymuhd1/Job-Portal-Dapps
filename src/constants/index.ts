@@ -223,11 +223,11 @@ const sortLists: Sort[] = [
 
 // dummy jobs data
 const jobs = [
-    { id: 0, title: "Frontend Developer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000"  },
-    { id: 1, title: "Backend Developer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000"  },
-    { id: 2, title: "Web Designer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000"  },
-    { id: 3, title: "UI Designer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000"  },
-    { id: 4, title: "Front Office Officer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000"  },
+    { id: 0, title: "Frontend Developer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
+    { id: 1, title: "Backend Developer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
+    { id: 2, title: "Web Designer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
+    { id: 3, title: "UI Designer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
+    { id: 4, title: "Front Office Officer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
 ]
 
 export { jobTypes, rangeSalaries, experiences, countries, sortLists, jobs }
