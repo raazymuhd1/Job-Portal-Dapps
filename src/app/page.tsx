@@ -48,7 +48,7 @@ export default function Home() {
           </div>
 
           {/* job card result */}
-          <aside className="w-full flex-center gap-[20px]">
+          <aside className="w-full flex-center justify-start gap-[20px] flex-wrap">
             { jobs.map(job => (
                 <JobCard key={job.id} { ...job } />
             )) }

@@ -21,7 +21,7 @@ const JobCard: FC<IProps> = (props) => {
      const { title, applicants, date, workplace, salary, exp } = props;
 
   return (
-    <article className={`min-w-[250px] max-w-[300px] bg-secondary rounded-[5px] p-[10px] mt-[30px]`}>
+    <article className={`basis-[30%] max-w-[400px] bg-secondary rounded-[5px] p-[10px] mt-[30px]`}>
        <div className="w-full flex flex-row items-start justify-between">
            <aside className="flex w-[30%] flex-row items-center gap-[15px]">
               <Image src={google} alt="company-logo" className="w-[40px] h-[40px] rounded-[5px] object-fill" />
@@ -37,11 +37,11 @@ const JobCard: FC<IProps> = (props) => {
        <div className="w-full flex flex-col gap-[15px] mt-[5px]">
           <h3 className="text-grey-small text-[14px] font-normal"> Match your profile </h3>
 
-          <div className="flex flex-col justify-start gap-[10px]">
+          <div className="flex flex-col items-start gap-[10px]">
               <div className="flex-center gap-[10px]">
                     <p className="rounded-[5px] py-[2px] px-[7px] text-[14px] jobs-info-bg"> { workplace  } </p>
                     <p className="rounded-[5px] py-[2px] px-[7px] text-[14px] jobs-info-bg"> { props["work-type"]  } </p>
-                    <p className="rounded-[5px] py-[2px] px-[7px] text-[14px] jobs-info-bg"> { exp  } </p>
+                    <p className="rounded-[5px] py-[2px] px-[7px] text-[14px] jobs-info-bg"> { exp  } Years </p>
               </div>
              
              <div className="flex-center gap-[5px]">
