@@ -28,9 +28,10 @@ export default function Home() {
           </div>
 
          {/* job result & filter */}
-          <div className={`w-[100%] flex items-center justify-between mt-[3rem]`}>
+          <div className={`w-[95%] flex items-center justify-between mt-[3rem]`}>
             <h3 className="italic"> Showing <strong> 100 </strong> jobs <strong> Frontend developer </strong> in <strong> Indonesia </strong> </h3>
-            <aside className={`w-[fit-content] flex items-center gap-[20px]`}>
+            <aside className={`w-[fit-content] flex-center gap-[20px]
+              translate-x-[10px]`}>
                <p className="whitespace-nowrap font-medium"> sort by </p>
                 <Select>
                     <SelectTrigger className="h-10">

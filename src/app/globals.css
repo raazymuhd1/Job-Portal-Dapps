@@ -16,6 +16,10 @@
        @apply text-[14px] text-[#bfc6ca];
     }
 
+    .job-info-text {
+       @apply rounded-[5px] py-[2px] px-[7px] text-[14px] jobs-info-bg;
+    }
+
   }
 
 .jobs-info-bg {
