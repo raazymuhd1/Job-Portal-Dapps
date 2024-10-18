@@ -67,7 +67,7 @@ const JobCard: FC<IProps> = (props) => {
          </div>
       </article>
    
-      <JobDetail showModal={showModal} />
+      <JobDetail showModal={showModal} setShowModal={setShowModal} />
    </Fragment>
   )
 }

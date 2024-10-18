@@ -28,6 +28,12 @@
     -webkit-backdrop-filter: 10px;
 }
 
+.jobs-detail {
+   backdrop-filter: 10px;
+   -webkit-backdrop-filter: 10px;
+   background-color: rgba(128,128,128,255);
+}
+
 .apply-btn {
    backdrop-filter: 10px;
    -webkit-backdrop-filter: 10px;
