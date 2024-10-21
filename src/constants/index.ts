@@ -245,7 +245,8 @@ const jobs = [
             "Proficiency in HTML, CSS, JavaScript, and React.",
             "Experience with modern frontend build tools such as Webpack and Babel.",
             "Strong understanding of responsive design and mobile-first development."
-        ]
+        ],
+        aboutRole: "As a Frontend Developer, you will be responsible for developing and maintaining the user interface and user experience of our web applications."
     },
     { 
         id: 1, 
@@ -269,7 +270,8 @@ const jobs = [
             "Proficiency in languages such as Java, Python, or Ruby.",
             "Experience with database management systems such as MySQL or MongoDB.",
             "Strong understanding of API design and RESTful architecture."
-        ]
+        ],
+        aboutRole: "As a Backend Developer, you will be responsible for designing, developing, and maintaining the server-side logic, database integration, and API connectivity."
     },
     { 
         id: 2, 
@@ -293,7 +295,8 @@ const jobs = [
             "Proficiency in design tools such as Sketch, Figma, or Adobe XD.",
             "Experience with front-end development frameworks such as React or Angular.",
             "Strong understanding of user experience (UX) principles and human-centered design."
-        ]
+        ],
+        aboutRole: "As a Web Designer, you will be responsible for creating visually appealing and user-friendly interfaces for our web applications."
     },
     { 
         id: 3, 
@@ -317,7 +320,8 @@ const jobs = [
             "Proficiency in design tools such as Sketch, Figma, or Adobe XD.",
             "Experience with front-end development frameworks such as React or Angular.",
             "Strong understanding of user experience (UX) principles and human-centered design."
-        ]
+        ],
+        aboutRole: "As a UI Designer, you will be responsible for designing intuitive and aesthetically pleasing user interfaces for our applications."
     },
     { 
         id: 4, 
@@ -341,7 +345,8 @@ const jobs = [
             "Excellent communication and interpersonal skills.",
             "Proficiency in Microsoft Office and Google Suite.",
             "Strong organizational and time management skills."
-        ]
+        ],
+        aboutRole: "As a Front Office Officer, you will be responsible for managing the day-to-day operations of the front office, including reception, administration, and customer service."
     },
 ]
 

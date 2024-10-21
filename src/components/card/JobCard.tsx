@@ -21,8 +21,6 @@ interface IProps {
 const JobCard: FC<IProps> = (props) => {
      const [showModal, setShowModal] = useState<boolean>(false);
      const { id, title, applicants, date, workplace, salary, exp } = props;
-     const url = new URL("http://localhost:3000/job-detail")
-     console.log(url)
 
   return (
    <Fragment>
