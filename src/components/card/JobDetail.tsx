@@ -1,6 +1,6 @@
 "use client"
 import { FC, SetStateAction, Dispatch } from 'react'
-import { MdOutlineClose } from "react-icons/md";
+import { jobs } from "@/constants"
 import { X } from "lucide-react"
 
 type IProps = {
@@ -12,7 +12,7 @@ type IProps = {
 const JobDetail: FC<IProps> = ({ jobId, showModal, setShowModal }) => {
 
   return (
-    <div className={` jobs-detail  ${showModal ? "inline-block inset-0 fixed translate-y-[0px]" : "hidden opacity-0 translate-y-[100px]"} transition-[transform_1s] duration-[1s] opacity-[1] delay-[3ms]`}>
+    <div className={`jobs-detail ${showModal ? "inline-block inset-0 fixed translate-y-[0px]" : "hidden translate-y-[100px]"} transition-[transform_2s] duration-[2s] delay-[400ms]`}>
       {/* close icon */}
       <X 
         onClick={() => setShowModal(false)}
@@ -20,7 +20,7 @@ const JobDetail: FC<IProps> = ({ jobId, showModal, setShowModal }) => {
 
       {/* job details contents */}
       <article className="h-[90%] absolute bottom-0 w-full bg-secondary rounded-tr-[1rem] rounded-tl-[1rem] p-[20px]">
-          <h2> details {jobId} </h2>
+        
       </article>
     </div>
   )

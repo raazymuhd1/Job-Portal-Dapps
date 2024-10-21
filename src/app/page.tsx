@@ -6,7 +6,7 @@ import {
     SelectContent, 
     SelectItem, 
     SelectGroup,
-    SelectLabel } from "@/components/ui/select"
+ } from "@/components/ui/select"
 import { useState } from "react"
 import { Sidebar, Countries, JobCard } from "@/components"
 import { Button } from "@/components/ui/button"

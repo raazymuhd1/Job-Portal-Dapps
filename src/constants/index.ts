@@ -223,11 +223,126 @@ const sortLists: Sort[] = [
 
 // dummy jobs data
 const jobs = [
-    { id: 0, title: "Frontend Developer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
-    { id: 1, title: "Backend Developer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
-    { id: 2, title: "Web Designer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
-    { id: 3, title: "UI Designer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
-    { id: 4, title: "Front Office Officer", "company-name": "Alibaba", applicants: 150, date: "3 days ago", "work-type": "fulltime", workplace: "hybrid", salary: "$5000", exp: "3-4"  },
+    { 
+        id: 0, 
+        title: "Frontend Developer", 
+        "company-name": "Alibaba", 
+        applicants: 150, 
+        date: "3 days ago", 
+        "work-type": "fulltime", 
+        workplace: "hybrid", 
+        salary: "$5000", 
+        exp: "3-4", 
+        description: "Develop and maintain the user interface and user experience of our web applications.",
+        responsibility: [
+            "Develop and maintain the user interface and user experience of our web applications.",
+            "Collaborate with the design team to create visually appealing and user-friendly interfaces.",
+            "Write clean, efficient, and well-documented code.",
+            "Participate in code reviews and contribute to the improvement of the codebase."
+        ],
+        qualification: [
+            "Bachelor's degree in Computer Science or related field, 3+ years of experience in frontend development.",
+            "Proficiency in HTML, CSS, JavaScript, and React.",
+            "Experience with modern frontend build tools such as Webpack and Babel.",
+            "Strong understanding of responsive design and mobile-first development."
+        ]
+    },
+    { 
+        id: 1, 
+        title: "Backend Developer", 
+        "company-name": "Alibaba", 
+        applicants: 150, 
+        date: "3 days ago", 
+        "work-type": "fulltime", 
+        workplace: "hybrid", 
+        salary: "$5000", 
+        exp: "3-4", 
+        description: "Design, develop, and maintain the server-side logic, database integration, and API connectivity.",
+        responsibility: [
+            "Design, develop, and maintain the server-side logic, database integration, and API connectivity.",
+            "Work with the frontend team to integrate backend services with frontend applications.",
+            "Implement security measures to protect against data breaches and cyber threats.",
+            "Optimize database performance and query efficiency."
+        ],
+        qualification: [
+            "Bachelor's degree in Computer Science or related field, 3+ years of experience in backend development.",
+            "Proficiency in languages such as Java, Python, or Ruby.",
+            "Experience with database management systems such as MySQL or MongoDB.",
+            "Strong understanding of API design and RESTful architecture."
+        ]
+    },
+    { 
+        id: 2, 
+        title: "Web Designer", 
+        "company-name": "Alibaba", 
+        applicants: 150, 
+        date: "3 days ago", 
+        "work-type": "fulltime", 
+        workplace: "hybrid", 
+        salary: "$5000", 
+        exp: "3-4", 
+        description: "Create visually appealing and user-friendly interfaces for our web applications.",
+        responsibility: [
+            "Create visually appealing and user-friendly interfaces for our web applications.",
+            "Design and develop responsive and mobile-first interfaces.",
+            "Collaborate with the development team to implement designs.",
+            "Conduct user research and testing to inform design decisions."
+        ],
+        qualification: [
+            "Bachelor's degree in Graphic Design or related field, 3+ years of experience in web design.",
+            "Proficiency in design tools such as Sketch, Figma, or Adobe XD.",
+            "Experience with front-end development frameworks such as React or Angular.",
+            "Strong understanding of user experience (UX) principles and human-centered design."
+        ]
+    },
+    { 
+        id: 3, 
+        title: "UI Designer", 
+        "company-name": "Alibaba", 
+        applicants: 150, 
+        date: "3 days ago", 
+        "work-type": "fulltime", 
+        workplace: "hybrid", 
+        salary: "$5000", 
+        exp: "3-4", 
+        description: "Design intuitive and aesthetically pleasing user interfaces for our applications.",
+        responsibility: [
+            "Design intuitive and aesthetically pleasing user interfaces for our applications.",
+            "Create wireframes, prototypes, and high-fidelity designs.",
+            "Collaborate with the development team to implement designs.",
+            "Conduct user research and testing to inform design decisions."
+        ],
+        qualification: [
+            "Bachelor's degree in Graphic Design or related field, 3+ years of experience in UI design.",
+            "Proficiency in design tools such as Sketch, Figma, or Adobe XD.",
+            "Experience with front-end development frameworks such as React or Angular.",
+            "Strong understanding of user experience (UX) principles and human-centered design."
+        ]
+    },
+    { 
+        id: 4, 
+        title: "Front Office Officer", 
+        "company-name": "Alibaba", 
+        applicants: 150, 
+        date: "3 days ago", 
+        "work-type": "fulltime", 
+        workplace: "hybrid", 
+        salary: "$5000", 
+        exp: "3-4", 
+        description: "Manage the day-to-day operations of the front office, including reception, administration, and customer service.",
+        responsibility: [
+            "Manage the day-to-day operations of the front office, including reception, administration, and customer service.",
+            "Greet and assist visitors, clients, and employees.",
+            "Answer and direct phone calls, emails, and other correspondence.",
+            "Maintain accurate and up-to-date records and databases."
+        ],
+        qualification: [
+            "Bachelor's degree in Business Administration or related field, 3+ years of experience in front office operations.",
+            "Excellent communication and interpersonal skills.",
+            "Proficiency in Microsoft Office and Google Suite.",
+            "Strong organizational and time management skills."
+        ]
+    },
 ]
 
 export { jobTypes, rangeSalaries, experiences, countries, sortLists, jobs }
