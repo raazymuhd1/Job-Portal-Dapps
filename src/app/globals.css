@@ -7,6 +7,14 @@
   }
 }
 
+.jobs-detail::-webkit-scrollbar {
+  width: 0;
+}
+
+.jobs-detais::-webkit-scrollbar-thumb {
+   width: 0;
+}
+
 @layer base {
     .flex-center {
        @apply flex items-center;
