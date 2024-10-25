@@ -8,6 +8,7 @@ import { FiShare2 } from "react-icons/fi";
 import Image from "next/image"
 import { google } from '@/assets'
 
+
 type IProps = {
     jobId: number;
     showModal: boolean;
@@ -23,21 +24,22 @@ const JobDetail: FC<IProps> = ({ jobId, showModal, setShowModal }) => {
 
 
   return (
-    <div className={`jobs-detail ${showModal ? "inline-block inset-0 fixed translate-y-[0px]" : "hidden translate-y-[100px]"} transition-[transform_2s] duration-[2s] delay-[400ms]`}>
+    <div className={`jobs-detail inset-0 ${showModal ? "block" : "hidden"} fixed transition-[transform] duration-[2s] delay-[400ms]`}>
       {/* close icon */}
       <X 
         onClick={() => setShowModal(false)}
         className="text-[3px] absolute right-[3rem] top-[2rem] text-secondary cursor-pointer" />
 
       {/* job details contents */}
-      <article className="h-[90%] absolute bottom-0 w-full bg-secondary rounded-tr-[1rem] rounded-tl-[1rem] py-[40px] px-[80px] overflow-y-scroll">
+      <article 
+        className="h-[90%] absolute bottom-0 flex w-full bg-secondary rounded-tr-[1rem] rounded-tl-[1rem] py-[40px] px-[80px] overflow-y-scroll">
          { filterItems().map(job => (
             <aside key={job.id} className="w-[70%]">
                 <div className="flex-center w-full justify-between">
                    <h2 className={`text-[16px] md:text-[18px] lg:text-[24px] font-bold`}> { job.title } </h2>
                     
                     <div className={`flex items-center gap-[10px]`}>
-                       <Button className="text-secondary bg-main min-w-[100px] p-[4px] font-bold"> Apply Now </Button>
+                       <Button className="text-secondary bg-main min-w-[100px] p-[4px] font-bold "> Apply Now </Button>
                        <MdBookmark size={25} className="text-[1rem+30px] text-main cursor-pointer" />
                        <FiShare2 size={25} className="text-[1rem+30px] cursor-pointer" />
                     </div>
@@ -84,6 +86,10 @@ const JobDetail: FC<IProps> = ({ jobId, showModal, setShowModal }) => {
                 </article>
             </aside>
          )) }
+
+            <aside className="w-[30%] h-full">
+              <h2> Similar Jobs </h2>
+            </aside>
       </article>
     </div>
   )

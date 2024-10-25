@@ -11,9 +11,6 @@
   width: 0;
 }
 
-.jobs-detais::-webkit-scrollbar-thumb {
-   width: 0;
-}
 
 @layer base {
     .flex-center {
