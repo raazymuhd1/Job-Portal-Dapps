@@ -32,7 +32,7 @@ const JobDetail: FC<IProps> = ({ jobId, showModal, setShowModal }) => {
 
       {/* job details contents */}
       <article 
-        className="h-[90%] absolute bottom-0 flex w-full bg-secondary rounded-tr-[1rem] rounded-tl-[1rem] py-[40px] px-[80px] overflow-y-scroll">
+        className="h-[90%] absolute bottom-0 flex w-full bg-secondary rounded-tr-[1rem] rounded-tl-[1rem] p-[80px] overflow-y-scroll">
          { filterItems().map(job => (
             <aside key={job.id} className="w-[70%]">
                 <div className="flex-center w-full justify-between">
@@ -75,7 +75,7 @@ const JobDetail: FC<IProps> = ({ jobId, showModal, setShowModal }) => {
                     </aside>
 
                     {/* responsibility */}
-                    <aside className={`mt-[20px] w-full`}>
+                    <aside className={`mt-[20px] w-full pb-[30px]`}>
                          <h3 className="font-bold text-[14px] md:text-[16px] lg:text-[18px]"> Responsibility  </h3>
                       <ul className={`flex flex-col`}>
                         { job.responsibility.map((rersponse, idx) => (

@@ -24,7 +24,7 @@ const Header = () => {
                 className="rounded-[50%] h-[40px] w-[40px] object-cover" />
                 <h3 className="text-[18px] font-medium"> Miss Kayla </h3>
             </div>
-            <MdKeyboardArrowDown className="text-[30px]" />
+            <MdKeyboardArrowDown className="text-[30px] cursor-pointer" />
         </aside>
       </nav>
     </header>
